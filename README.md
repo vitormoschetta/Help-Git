@@ -194,3 +194,9 @@ git push origin master --tags
 git tag -d 1.0.0 	
 git push origin :1.0.0 
 ```
+
+
+#### DEFINIR ARQUIVO PARA TEXTO DE COMMITS:
+```
+git config --global commit.template ~/.gitmessage.txt
+```
