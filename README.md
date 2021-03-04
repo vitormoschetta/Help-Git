@@ -118,6 +118,28 @@ Obs : No exemplo acima estou trazendo as alterações feita na branch 'teste' pa
 
 ## OUTROS COMANDOS UTEIS 
 
+#### GIT STASH
+###### Guardar alterações feitas e ainda não comitadas em uma branch temporária:
+```
+git stash
+```
+
+###### Listar alterações salvas em stash:
+```
+git stash list
+```
+
+###### Aplicar stash salvo na branch atual
+```
+git stash pop
+```
+ou 
+```
+git stash apply
+```
+
+
+
 #### ATUALIZAR DIRETÓRIO COM ATUALIZAÇÕES MAIS RECENTES DA BRANCH:
 ```				
 git pull
