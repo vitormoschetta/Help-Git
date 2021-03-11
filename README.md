@@ -123,10 +123,24 @@ Obs : No exemplo acima estou trazendo as alterações feita na branch 'teste' pa
 ```
 git stash
 ```
-
-###### Listar alterações salvas em stash:
+Obs: o comando acima guarda apenas arquivos já rastreados.  
+Para novos arquivos adicionados usar o seguinte comando:
 ```
-git stash list
+git stash --include-untracked 
+```
+ou abreviado:
+```
+git stash -u
+```
+
+###### Listar arquivos em stash:
+```
+git stash show
+```
+
+###### Listar alterações em stash:
+```
+git stash show -u
 ```
 
 ###### Aplicar stash salvo na branch atual
