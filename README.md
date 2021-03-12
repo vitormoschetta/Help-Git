@@ -99,6 +99,11 @@ Obs: ELE VAI DESTACAR A BRANCH ATUAL COM UM * (ASTERISCO)
 git checkout -b teste
 ```
 
+#### ALTERAR O NOME DA BRANCH ATUAL
+```
+git branch -m "novo-nome"
+```
+
 #### MUDAR DE BRANCH:
 ```
 git checkout master => por o nome da branch que deseja usar
