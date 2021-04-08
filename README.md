@@ -157,6 +157,15 @@ ou
 git stash apply
 ```
 
+###### Amend
+Adicionar ao mesmo commit outras alteraçes (não alterar a mensagem do commit):
+```
+git commit --amend --no-edit
+```
+Necessrio forçar o envio:
+```
+git push -f
+```
 
 
 #### ATUALIZAR DIRETÓRIO COM ATUALIZAÇÕES MAIS RECENTES DA BRANCH:
