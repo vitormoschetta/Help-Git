@@ -26,9 +26,21 @@ git diff
 git diff --name-only
 ```
 #### CANCELAR ARQUIVO MOTIFICADO ANTES DE LER (GIT ADD):
+Desfazer modificações de um arquivo apenas:
 ```
 git checkout Leiame.txt
 ```
+
+Desfazer todas as modificações (arquivos  já rastreados):
+```
+git checkout -- .
+```
+
+Remover todos os arquivos adicionados (novos arquivos / não rastreados):
+```
+git clean -f -d
+```
+
 ####  CANCELAR ARQUIVO MODIFICADO DEPOIS DE JÁ TER FEITO 'git add'
 ```
 git reset HEAD Leiame.txt   
