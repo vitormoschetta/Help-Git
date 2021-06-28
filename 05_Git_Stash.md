@@ -32,3 +32,20 @@ ou
 ```
 git stash apply
 ```
+
+
+###### Visualizar lista de stash existentes:
+```
+git stash list
+```
+A saída é parecido com isto:
+```
+stash@{0}: WIP on feature/Add-unit-tests-for-ProductCategory...
+stash@{1}: WIP on feature/add-unit-tests-for-clientsettings...
+```
+
+
+###### Visualizar diff de uma stash específica:
+```
+git stash show -p stash@{0}
+```
