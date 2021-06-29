@@ -14,25 +14,6 @@ ou abreviado:
 git stash -u
 ```
 
-###### Listar arquivos em stash:
-```
-git stash show
-```
-
-###### Listar alterações em stash:
-```
-git stash show -u
-```
-
-###### Aplicar stash salvo na branch atual
-```
-git stash pop
-```
-ou 
-```
-git stash apply
-```
-
 
 ###### Visualizar lista de stash existentes:
 ```
@@ -45,7 +26,30 @@ stash@{1}: WIP on feature/add-unit-tests-for-clientsettings...
 ```
 
 
+###### Listar arquivos em stash:
+```
+git stash show
+```
+
+
 ###### Visualizar diff de uma stash específica:
 ```
 git stash show -p stash@{0}
+```
+
+
+
+###### Aplicar um stash específico
+```
+git stash apply stash@{0}
+```
+
+
+###### Aplicar todos os stashs salvo na branch atual
+```
+git stash pop
+```
+ou 
+```
+git stash apply
 ```
