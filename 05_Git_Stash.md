@@ -53,3 +53,15 @@ ou
 ```
 git stash apply
 ```
+
+
+###### Dropar um stash especifico
+```
+ git stash drop stash@{0}
+```
+
+
+###### Dropar todos os stashs
+```
+ git stash drop
+```
