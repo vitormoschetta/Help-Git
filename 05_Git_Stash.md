@@ -61,7 +61,7 @@ git stash apply
 ```
 
 
-###### Dropar todos os stashs
+###### Dropar ultimo stashs
 ```
  git stash drop
 ```
