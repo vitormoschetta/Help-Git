@@ -35,3 +35,11 @@ git remote -v
 ```				
 git pull
 ```
+
+
+
+#### DESFAZER ULTIMO COMMIT (Que não tenha sido enviado para o repositório remoto)
+```				
+git reset --soft HEAD~1
+```
+
