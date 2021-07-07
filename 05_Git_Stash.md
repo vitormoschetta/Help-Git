@@ -14,6 +14,12 @@ ou abreviado:
 git stash -u
 ```
 
+###### Guardar alterações feitas em um arquivo específico:
+```
+git stash push -m readme README.md
+```
+Veja que ainda podemos dar um nome (-m readme) ao stash
+
 
 ###### Visualizar lista de stash existentes:
 ```
