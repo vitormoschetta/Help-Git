@@ -1,6 +1,6 @@
 #### GIT STASH
 
-###### Guardar alterações feitas e ainda não comitadas em uma branch temporária:
+##### Guardar alterações feitas e ainda não comitadas em uma branch temporária:
 ```
 git stash
 ```
@@ -14,14 +14,14 @@ ou abreviado:
 git stash -u
 ```
 
-###### Guardar alterações feitas em um arquivo específico:
+##### Guardar alterações feitas em um arquivo específico:
 ```
 git stash push -m readme README.md
 ```
 Veja que ainda podemos dar um nome (-m readme) ao stash
 
 
-###### Visualizar lista de stash existentes:
+##### Visualizar lista de stash existentes:
 ```
 git stash list
 ```
@@ -32,26 +32,26 @@ stash@{1}: WIP on feature/add-unit-tests-for-clientsettings...
 ```
 
 
-###### Listar arquivos em stash:
+##### Listar arquivos em stash:
 ```
 git stash show
 ```
 
 
-###### Visualizar diff de uma stash específica:
+##### Visualizar diff de uma stash específica:
 ```
 git stash show -p stash@{0}
 ```
 
 
 
-###### Aplicar um stash específico
+##### Aplicar um stash específico
 ```
 git stash apply stash@{0}
 ```
 
 
-###### Aplicar todos os stashs salvo na branch atual
+##### Aplicar todos os stashs salvo na branch atual
 ```
 git stash pop
 ```
@@ -61,13 +61,13 @@ git stash apply
 ```
 
 
-###### Dropar um stash especifico
+##### Dropar um stash especifico
 ```
  git stash drop stash@{0}
 ```
 
 
-###### Dropar ultimo stashs
+##### Dropar ultimo stashs
 ```
  git stash drop
 ```
