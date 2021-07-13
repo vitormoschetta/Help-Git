@@ -7,11 +7,11 @@ git stash
 Obs: o comando acima guarda apenas arquivos já rastreados.  
 Para novos arquivos adicionados usar o seguinte comando:
 ```
-git stash --include-untracked 
+git stash push -m <name> --include-untracked 
 ```
 ou abreviado:
 ```
-git stash -u
+git stash push -m <name> -u
 ```
 
 ##### Guardar alterações feitas em um arquivo específico:
